@@ -1,0 +1,13 @@
+prefix=/Users/ioanniskoutsoukis/Projects/university/NLP - Assignment 1/.conda
+exec_prefix=/Users/ioanniskoutsoukis/Projects/university/NLP - Assignment 1/.conda
+libdir=/Users/ioanniskoutsoukis/Projects/university/NLP - Assignment 1/.conda/lib
+sharedlibdir=/Users/ioanniskoutsoukis/Projects/university/NLP - Assignment 1/.conda/lib
+includedir=/Users/ioanniskoutsoukis/Projects/university/NLP - Assignment 1/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
